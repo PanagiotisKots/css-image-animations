@@ -1,0 +1,96 @@
+.snip1295 {
+  position: relative;
+  overflow: hidden;
+  margin: 7px;
+  padding: 6px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+}
+.snip1295 img {
+  max-width: 100%;
+  vertical-align: top;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1295 .border {
+  position: absolute;
+  opacity: 0.45;
+}
+.snip1295 .border:before,
+.snip1295 .border:after,
+.snip1295 .border div:before,
+.snip1295 .border div:after {
+  background-color: #f5b043;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.snip1295 .border:before,
+.snip1295 .border:after {
+  width: 0;
+  height: 1px;
+}
+.snip1295 .border div:before,
+.snip1295 .border div:after {
+  width: 1px;
+  height: 0;
+}
+.snip1295 .border.one {
+  left: 0;
+  top: 0;
+  right: 12px;
+  bottom: 12px;
+}
+.snip1295 .border.one:before,
+.snip1295 .border.one div:before {
+  left: 0;
+  top: 0;
+}
+.snip1295 .border.one:after,
+.snip1295 .border.one div:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1295 .border.two {
+  left: 12px;
+  top: 12px;
+  right: 0;
+  bottom: 0;
+}
+.snip1295 .border.two:before,
+.snip1295 .border.two div:before {
+  right: 0;
+  top: 0;
+}
+.snip1295 .border.two:after,
+.snip1295 .border.two div:after {
+  bottom: 0;
+  left: 0;
+}
+.snip1295 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+.snip1295:hover .border:before,
+.snip1295.hover .border:before,
+.snip1295:hover .border:after,
+.snip1295.hover .border:after {
+  width: 100%;
+}
+.snip1295:hover .border div:before,
+.snip1295.hover .border div:before,
+.snip1295:hover .border div:after,
+.snip1295.hover .border div:after {
+  height: 100%;
+}
